@@ -16,6 +16,10 @@
 		1F6D84B31A69BBD100D71876 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6D84B21A69BBD100D71876 /* Images.xcassets */; };
 		1F6D84B61A69BBD100D71876 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F6D84B41A69BBD100D71876 /* LaunchScreen.xib */; };
 		1F6D84C21A69BBD100D71876 /* Smarter_WatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D84C11A69BBD100D71876 /* Smarter_WatchTests.m */; };
+		1F6D84CD1A6B187A00D71876 /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D84CC1A6B187A00D71876 /* BlogPost.m */; };
+		1FB6F9651A79917B0026E7CB /* FollowingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB6F9641A79917B0026E7CB /* FollowingTableViewController.m */; };
+		1FB6F9681A7996AD0026E7CB /* HODINKEEsRSSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB6F9671A7996AD0026E7CB /* HODINKEEsRSSTableViewController.m */; };
+		1FB6F96E1A7A9D8C0026E7CB /* HODINKEEDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB6F96D1A7A9D8C0026E7CB /* HODINKEEDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,14 @@
 		1F6D84BB1A69BBD100D71876 /* Smarter WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smarter WatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6D84C01A69BBD100D71876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F6D84C11A69BBD100D71876 /* Smarter_WatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smarter_WatchTests.m; sourceTree = "<group>"; };
+		1F6D84CB1A6B187A00D71876 /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
+		1F6D84CC1A6B187A00D71876 /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
+		1FB6F9631A79917B0026E7CB /* FollowingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FollowingTableViewController.h; path = ../FollowingTableViewController.h; sourceTree = "<group>"; };
+		1FB6F9641A79917B0026E7CB /* FollowingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FollowingTableViewController.m; path = ../FollowingTableViewController.m; sourceTree = "<group>"; };
+		1FB6F9661A7996AD0026E7CB /* HODINKEEsRSSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HODINKEEsRSSTableViewController.h; sourceTree = "<group>"; };
+		1FB6F9671A7996AD0026E7CB /* HODINKEEsRSSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HODINKEEsRSSTableViewController.m; sourceTree = "<group>"; };
+		1FB6F96C1A7A9D8C0026E7CB /* HODINKEEDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HODINKEEDetailViewController.h; sourceTree = "<group>"; };
+		1FB6F96D1A7A9D8C0026E7CB /* HODINKEEDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HODINKEEDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,13 +98,21 @@
 		1F6D849E1A69BBD100D71876 /* Smarter Watch */ = {
 			isa = PBXGroup;
 			children = (
+				1F6D84AF1A69BBD100D71876 /* Main.storyboard */,
 				1F6D84A31A69BBD100D71876 /* AppDelegate.h */,
 				1F6D84A41A69BBD100D71876 /* AppDelegate.m */,
 				1F6D84A91A69BBD100D71876 /* MasterViewController.h */,
 				1F6D84AA1A69BBD100D71876 /* MasterViewController.m */,
 				1F6D84AC1A69BBD100D71876 /* DetailViewController.h */,
 				1F6D84AD1A69BBD100D71876 /* DetailViewController.m */,
-				1F6D84AF1A69BBD100D71876 /* Main.storyboard */,
+				1FB6F9661A7996AD0026E7CB /* HODINKEEsRSSTableViewController.h */,
+				1FB6F9671A7996AD0026E7CB /* HODINKEEsRSSTableViewController.m */,
+				1FB6F96C1A7A9D8C0026E7CB /* HODINKEEDetailViewController.h */,
+				1FB6F96D1A7A9D8C0026E7CB /* HODINKEEDetailViewController.m */,
+				1F6D84CB1A6B187A00D71876 /* BlogPost.h */,
+				1F6D84CC1A6B187A00D71876 /* BlogPost.m */,
+				1FB6F9631A79917B0026E7CB /* FollowingTableViewController.h */,
+				1FB6F9641A79917B0026E7CB /* FollowingTableViewController.m */,
 				1F6D84B21A69BBD100D71876 /* Images.xcassets */,
 				1F6D84B41A69BBD100D71876 /* LaunchScreen.xib */,
 				1F6D84A61A69BBD100D71876 /* Smarter_Watch.xcdatamodeld */,
@@ -176,6 +196,7 @@
 				TargetAttributes = {
 					1F6D849B1A69BBD100D71876 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = MPU679B2LU;
 					};
 					1F6D84BA1A69BBD100D71876 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -228,10 +249,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F6D84AE1A69BBD100D71876 /* DetailViewController.m in Sources */,
+				1F6D84CD1A6B187A00D71876 /* BlogPost.m in Sources */,
 				1F6D84AB1A69BBD100D71876 /* MasterViewController.m in Sources */,
 				1F6D84A51A69BBD100D71876 /* AppDelegate.m in Sources */,
+				1FB6F96E1A7A9D8C0026E7CB /* HODINKEEDetailViewController.m in Sources */,
 				1F6D84A81A69BBD100D71876 /* Smarter_Watch.xcdatamodeld in Sources */,
 				1F6D84A21A69BBD100D71876 /* main.m in Sources */,
+				1FB6F9651A79917B0026E7CB /* FollowingTableViewController.m in Sources */,
+				1FB6F9681A7996AD0026E7CB /* HODINKEEsRSSTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,9 +378,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Smarter Watch/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -363,9 +391,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Smarter Watch/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -422,6 +453,7 @@
 				1F6D84C71A69BBD100D71876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F6D84C81A69BBD100D71876 /* Build configuration list for PBXNativeTarget "Smarter WatchTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +462,7 @@
 				1F6D84CA1A69BBD100D71876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
