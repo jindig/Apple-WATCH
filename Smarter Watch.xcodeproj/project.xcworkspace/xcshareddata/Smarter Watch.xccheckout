@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8AFBD64A-74CF-41E6-BCA8-AEC9811A8A92</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Smarter Watch</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>73DB57D94914EFD3430C85A8F374A08D053E8193</key>
+		<string>https://github.com/jindig/Apple-WATCH</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Smarter Watch.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>73DB57D94914EFD3430C85A8F374A08D053E8193</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jindig/Apple-WATCH</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>73DB57D94914EFD3430C85A8F374A08D053E8193</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>73DB57D94914EFD3430C85A8F374A08D053E8193</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Smarter%20Watch</string>
+		</dict>
+	</array>
+</dict>
+</plist>
